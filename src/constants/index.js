@@ -25,21 +25,21 @@ export const features = [
     icon: star,
     title: "Rewards",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Os melhores cartões de crédito oferecem algumas combinações tentadoras de promoções e prêmios",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "100% Secured",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Tomamos medidas proativas para garantir que suas informações e transações estejam seguras.",
   },
   {
     id: "feature-3",
     icon: send,
     title: "Balance Transfer",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Um cartão de crédito de transferência de saldo pode economizar muito dinheiro em juros.",
   },
 ];
 
@@ -47,7 +47,7 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+      "O dinheiro é apenas uma ferramenta. Ele o levará aonde você quiser, mas não o substituirá como motorista.",
     name: "Herman Jensen",
     title: "Founder & Leader",
     img: people01,
@@ -55,7 +55,7 @@ export const feedback = [
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+      "O dinheiro facilita a sua vida. Se você tem sorte de tê-lo, você tem sorte.",
     name: "Steve Mark",
     title: "Founder & Leader",
     img: people02,
@@ -63,7 +63,7 @@ export const feedback = [
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "Geralmente, são as pessoas que trabalham com dinheiro, finanças e comércio internacional que são realmente ricas..",
     name: "Kenn Gallagher",
     title: "Founder & Leader",
     img: people03,
