@@ -138,3 +138,28 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+
+
+
+.blue__gradient5 {
+  background: linear-gradient
+  (
+    157.81deg, 
+    rgba(188, 165, 255, 2) 100%, 
+    #214d76 100%
+  );
+  
+}
+
+.bg-blue-gradient5 {
+  background: linear-gradient(
+    157.81deg,
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 19.82%,
+    #5ce1e6 51.94%,
+    #33bbcf 80.29%
+  );
+
+}
