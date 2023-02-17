@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, check  } from "../assets";
 
 export const navLinks = [
   {
@@ -7,15 +7,15 @@ export const navLinks = [
   },
   {
     id: "features",
-    title: "Features",
+    title: "Características",
   },
   {
     id: "product",
-    title: "Product",
+    title: "Produtos",
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "Clientes",
   },
 ];
 
@@ -47,27 +47,52 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "O dinheiro é apenas uma ferramenta. Ele o levará aonde você quiser, mas não o substituirá como motorista.",
+      "Programador full-stack, sendo Spring-Boot no back e Angular 7 no front",
     name: "Herman Jensen",
     title: "Founder & Leader",
-    img: people01,
+    img: check,
   },
   {
     id: "feedback-2",
     content:
-      "O dinheiro facilita a sua vida. Se você tem sorte de tê-lo, você tem sorte.",
+      "Arquitetura de software utilizando React-native no front, e Spring-boot no back",
     name: "Steve Mark",
     title: "Founder & Leader",
-    img: people02,
+    img: check,
   },
   {
     id: "feedback-3",
     content:
-      "Geralmente, são as pessoas que trabalham com dinheiro, finanças e comércio internacional que são realmente ricas..",
+      "Análise de requisito, modelagem, documentação e desenvolvimento do sistema YITRO, desenvolvido em JSF utilizando bancos ORACLE e POSTGRE",
     name: "Kenn Gallagher",
     title: "Founder & Leader",
-    img: people03,
+    img: check,
   },
+  {
+    id: "feedback-4",
+    content:
+      "Desenvolvimento e manutenção de JOBs \nDesenvolvimento SOA (JAVA)",
+    name: "Kenn Gallagher",
+    title: "Founder & Leader",
+    img: check,
+  },
+  {
+    id: "feedback-5",
+    content:
+      "Coordenação e gestão de fábrica de software composta no âmbito do Ministério visando a integridade relacional entre as secretarias federais e soluções tecnologias com mais de 100 sistemas, dentre eles 80% em produção.",
+    name: "Kenn Gallagher",
+    title: "Founder & Leader",
+    img: check,
+  },
+  {
+    id: "feedback-6",
+    content:
+      "Tesouro nacional desenvolvidos com Java, Struts, Hibernate, J2EE, Jboss, banco Oracle. \nSistema Integrado da Divida Pública - SID (Tesouro Nacional – Ministério da Fazenda)",
+    name: "Kenn Gallagher",
+    title: "Founder & Leader",
+    img: check,
+  },
+
 ];
 
 export const stats = [
@@ -90,43 +115,43 @@ export const stats = [
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Links Úteis",
     links: [
       {
         name: "Content",
         link: "https://www.hoobank.com/content/",
       },
       {
-        name: "How it Works",
+        name: "Como Funciona",
         link: "https://www.hoobank.com/how-it-works/",
       },
       {
-        name: "Create",
+        name: "Criar",
         link: "https://www.hoobank.com/create/",
       },
       {
-        name: "Explore",
+        name: "Explorar",
         link: "https://www.hoobank.com/explore/",
       },
       {
-        name: "Terms & Services",
+        name: "Termos e Serviços",
         link: "https://www.hoobank.com/terms-and-services/",
       },
     ],
   },
   {
-    title: "Community",
+    title: "Comunidade",
     links: [
       {
-        name: "Help Center",
+        name: "Ajuda",
         link: "https://www.hoobank.com/help-center/",
       },
       {
-        name: "Partners",
+        name: "Parceiros",
         link: "https://www.hoobank.com/partners/",
       },
       {
-        name: "Suggestions",
+        name: "Sugestões",
         link: "https://www.hoobank.com/suggestions/",
       },
       {
@@ -134,20 +159,20 @@ export const footerLinks = [
         link: "https://www.hoobank.com/blog/",
       },
       {
-        name: "Newsletters",
+        name: "boletins informativos",
         link: "https://www.hoobank.com/newsletters/",
       },
     ],
   },
   {
-    title: "Partner",
+    title: "Parceiro",
     links: [
       {
-        name: "Our Partner",
+        name: "Nossos Parceiros",
         link: "https://www.hoobank.com/our-partner/",
       },
       {
-        name: "Become a Partner",
+        name: "Torne-se um Parceiros",
         link: "https://www.hoobank.com/become-a-partner/",
       },
     ],

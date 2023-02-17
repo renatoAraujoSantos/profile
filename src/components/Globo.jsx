@@ -4,7 +4,7 @@ import { TagCloud } from "@frank-mayer/react-tag-cloud";
 
 const globoRotation = () => (
 
-    <section className={`sm:px-32 px-6 sm:py-48 py-8  bg-gradient-to-r from-zinc-800 via-sky-500 to-slate-800       rounded-full  `}>
+    <section className={`sm:px-32 px-6 sm:py-48 py-8  bg-gradient-to-r from-neutral-700 via-sky-500 to-slate-700       rounded-full  `}>
 
         
             <TagCloud

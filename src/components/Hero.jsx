@@ -10,33 +10,35 @@ const Hero = () => {
                 <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
                     <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
                     <p className={`${styles.paragraph} ml-2`}>
-                        <span className="text-white">20%</span> Desconto Para{" "}
-                        <span className="text-white">1 Mês</span> de Conta
+                        <span className="text-white"></span> Arquitetura de software{" "}
+                        <span className="text-white">POO</span> em mult-camadas
                     </p>
                 </div>
 
                 <div className="flex flex-row justify-between items-center w-full">
                     <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-                        A próxima <br className="sm:block hidden" />{" "}
-                        <span className="text-gradient">Geração</span>{" "}
+                        Desenvolvedor <br className="sm:block hidden" />{" "}
+                        <span className="text-gradient">Full Stack</span>{" "}
                     </h1>
-                    <div className="ss:flex hidden md:mr-4 mr-0">
+
+                    {/* <div className="ss:flex hidden md:mr-4 mr-0">
                         <GetStarted />
-                    </div>
+                    </div> */}
                 </div>
 
-                <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
+                {/* <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
                     Forma de pagamento.
-                </h1>
-                <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-                    Nossa equipe de especialistas utiliza uma metodologia para identificar os cartões de crédito
-                    provavelmente para atender às suas necessidades. Examinamos as taxas percentuais anuais,
-                    taxas anuais.
+                </h1> */}
+
+                <p className={`${styles.paragraph} max-w-[670px] mt-5`}>
+                    Olá, sou Renato. Tenho mais de 15 anos de experiência em uma ampla gama de disciplinas de desenvolvimento de software em todas as suas fazes.
+                    Não gosto de me definir pelo trabalho que fiz, mas sim pelo trabalho que quero fazer, alimentado por altos níveis de energia e entusiamo sem limites,
+                    gosto de desenvolver conhecimentos em diversas áreas como tenho feito na minha carreira. Atualmente trabalho remotamente com uma base de clientes freelancers e estou aberto a novas oportunidades.
                 </p>
             </div>
 
 
-            <div className="w-[35%] h-[40%] relative z-[5] bg-center " >
+            <div className="w-[32%] h-[40%] relative z-[5] bg-center " >
                 <Globo />
             </div>
 
